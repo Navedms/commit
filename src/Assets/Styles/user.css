@@ -1,0 +1,21 @@
+.user-container {
+    width: 100%;
+}
+
+.user-data-container {
+    width: 80%;
+    box-shadow: 1px 1px 2px var(--clr-grey-2);
+    padding: 30px 20px;
+}
+
+.user-data-container div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.user-data-container div p {
+    margin-left: 5px;
+}

@@ -1,0 +1,48 @@
+.form-container {
+    width: 100%;
+}
+
+.form-element label {
+    display: block;
+    font-size: 0.6rem;
+    position: relative;
+    top: 10px;
+    padding: 3px;
+    background-color: var(--clr-white);
+    color: var(--clr-grey-2);
+    left: 10px;
+    width: max-content;
+}
+
+.form-element input {
+    display: block;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid var(--clr-grey-1);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: var(--clr-grey-10);
+}
+
+.submit-form-btn {
+    background: var(--clr-primary);
+    color: var(--clr-white);
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px var(--clr-grey-2);
+}
+
+.error-msg {
+    font-size: 0.6rem;
+    color: var(--clr-error);
+}
+
+.form-submit {
+    margin-top: 20px;
+}
+
+.form-submit-msg {
+    font-size: 1rem;
+    color: var(--clr-ok);
+    font-weight: 600;
+}
